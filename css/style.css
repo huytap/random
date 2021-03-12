@@ -5,9 +5,21 @@ quot {
 .text-center{
 	text-align: center;
 }
+#btnVoucher{
+	display: none;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
 #btnXem{
 	margin-top: 40px;
 	cursor: pointer;
+}
+body{
+	height: 97vh;
+	background: url(../images/bg.png) no-repeat;
+	color:#fff;
+	font-size: 16px;
+	text-align: center;
 }
 #container{
 	position: relative;
@@ -16,14 +28,14 @@ quot {
 }
 .card {
 	display: block;
-	width: 70px;
+	width: 100px;
 	height: 150px;
 	background-color: white;
 	border: 3px solid black;
 	border-radius: 20px;
 	position: absolute;
 	top: 100%;
-	left: 25%;
+	left: 30%;
 	padding: 10px;
 	font-size: 200%;
 	font-weight: bold;
