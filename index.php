@@ -81,21 +81,9 @@
 		   return result;
 		}
 
-		</script>
-		<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
-		<script>
-		//listen ano to shake event
-		var shakeEvent = new Shake({threshold: 15});
-		shakeEvent.start();
-		window.addEventListener('shake', function(){
-		alert("lac lac lac ");
-		}, false);
-
-		//stop ny listening
-		function stopShake(){
-		shakeEvent.stop();
+		if (typeof window.DeviceMotionEvent != 'undefined') {
+			alert(111)
 		}
-
 		</script>
 	</body>
 </html>
