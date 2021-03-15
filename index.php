@@ -81,9 +81,20 @@
 		   return result;
 		}
 
-		window.addEventListener("DOMContentLoaded", function() {
-		     alert(0)
-		});
+		</script>
+		<script type="text/javascript" src="https://cdn.rawgit.com/alexgibson/shake.js/master/shake.js"></script>
+		<script>
+		//listen ano to shake event
+		var shakeEvent = new Shake({threshold: 15});
+		shakeEvent.start();
+		window.addEventListener('shake', function(){
+		alert("lac lac lac ");
+		}, false);
+
+		//stop ny listening
+		function stopShake(){
+		shakeEvent.stop();
+		}
 
 		</script>
 	</body>
