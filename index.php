@@ -81,9 +81,10 @@
 		   return result;
 		}
 
-		if (window.DeviceOrientationEvent) {
-		 alert(0)
-		}
+		window.addEventListener("DOMContentLoaded", function() {
+		     alert(0)
+		});
+
 		</script>
 	</body>
 </html>
