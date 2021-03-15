@@ -81,6 +81,9 @@
 		   return result;
 		}
 
+		if (window.DeviceOrientationEvent) {
+		 alert(0)
+		}
 		</script>
 	</body>
 </html>
